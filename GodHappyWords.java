@@ -137,14 +137,12 @@ public class RandomWordPrinter {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-
         
         UIManager.put("OptionPane.maximumSize", frame.getSize());
 
         JOptionPane.showMessageDialog(frame, message.toString(), "God says...",
                 JOptionPane.INFORMATION_MESSAGE, null);
-
-      
+        
         System.exit(0);
     }
 }
