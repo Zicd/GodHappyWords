@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -134,7 +133,7 @@ public class RandomWordPrinter {
                 message.append(" ");
             }
         }
-//change the window in future
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
